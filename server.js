@@ -9,7 +9,7 @@ async function getContainerCount() {
   return 10;
 }
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   count++;
   res.json({ count });
 });
